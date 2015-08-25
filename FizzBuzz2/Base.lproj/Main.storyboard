@@ -17,12 +17,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="Number..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sn0-up-3vR">
-                                <rect key="frame" x="76" y="200" width="168" height="30"/>
+                                <rect key="frame" x="78" y="133" width="168" height="30"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJ5-wG-qbu">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Play FizzBuzz" id="Pct-Kd-6eK"/>
+                                </items>
+                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyY-yi-q5v">
-                                <rect key="frame" x="74" y="327" width="172" height="82"/>
+                                <rect key="frame" x="74" y="207" width="172" height="82"/>
                                 <color key="backgroundColor" red="0.0" green="0.59637129929999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="FizzBuzz It!">
@@ -33,12 +39,6 @@
                                     <action selector="fizzBuzzIt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sCp-7J-QVK"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJ5-wG-qbu">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
-                                <items>
-                                    <navigationItem title="Play FizzBuzz" id="Pct-Kd-6eK"/>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
